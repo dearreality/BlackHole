@@ -93,6 +93,7 @@
 				2D7477A51578168D00412279 /* Sources */,
 				2D7477A61578168D00412279 /* Frameworks */,
 				2D46CA7A17D6ADC500049D4A /* Resources */,
+				336BE84D258BB4740088855D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -112,7 +113,7 @@
 				LastUpgradeCheck = 1030;
 				TargetAttributes = {
 					2D7477A81578168D00412279 = {
-						DevelopmentTeam = Q5C99V536K;
+						DevelopmentTeam = PUDE63N53W;
 					};
 				};
 			};
@@ -146,6 +147,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		336BE84D258BB4740088855D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D7477A51578168D00412279 /* Sources */ = {
@@ -321,14 +342,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = Q5C99V536K;
+				DEVELOPMENT_TEAM = PUDE63N53W;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=0",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/BlackHole/BlackHole-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/HAL";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 0.2.7;
 				PRODUCT_BUNDLE_IDENTIFIER = audio.existential.BlackHole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,14 +362,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = Q5C99V536K;
+				DEVELOPMENT_TEAM = PUDE63N53W;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/BlackHole/BlackHole-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/HAL";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 0.2.7;
 				PRODUCT_BUNDLE_IDENTIFIER = audio.existential.BlackHole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,14 +382,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = Q5C99V536K;
+				DEVELOPMENT_TEAM = PUDE63N53W;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/BlackHole/BlackHole-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/HAL";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 0.2.7;
 				PRODUCT_BUNDLE_IDENTIFIER = audio.existential.BlackHole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
